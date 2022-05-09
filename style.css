@@ -1,3 +1,13 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.btn-contact{
+    width: 18em;
+    text-align: left !important;
+    margin-top: 12px;
+}
+
 .bg-light-transparent{
     background-color: #ffffff90;
     backdrop-filter: blur(10px);
