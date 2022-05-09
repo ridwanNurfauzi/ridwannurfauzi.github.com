@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light-transparent sticky-top">
+    <nav id="navlist" class="navbar navbar-expand-lg navbar-light bg-light-transparent sticky-top">
         <a class="navbar-brand" href="#">Ridwan Nurfauzi</a>
         <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,72 +22,76 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Biodata</a>
+                    <a class="nav-link" href="#biodata">Biodata</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Kontak</a>
+                    <a class="nav-link" href="#kontak">Kontak</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container text-center">
-            <h1>Web Profile</h1>
-            <p class="lead">Selamat datang di web profile.</p>
+    <div data-spy="scroll" data-target="#navlist" data-offset="0" class="scrollspy-example">
+        <div class="jumbotron jumbotron-fluid" id="home">
+            <div class="container text-center">
+                <h1>Web Profile</h1>
+                <p class="lead">Selamat datang di web profile.</p>
+            </div>
+        </div>
+
+        <div class="container" id="biodata">
+            <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6"><img src="profile.jpg" class="rounded-lg"></div>
+                <div class="col-sm-3"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6">
+                    <h2>Biodata</h2>
+                </div>
+                <div class="col-sm-3"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6">
+                    <table>
+                        <tr>
+                            <td>Nama</td>
+                            <td>: M. Ridwan Nurfauzi H.P</td>
+                        </tr>
+                        <tr>
+                            <td>TTL</td>
+                            <td>: Bandung, 3 Mei 2006</td>
+                        </tr>
+                        <tr>
+                            <td>Agama</td>
+                            <td>: Islam</td>
+                        </tr>
+                        <tr>
+                            <td>Jenis kelamin</td>
+                            <td>: Laki-laki</td>
+                        </tr>
+                        <tr>
+                            <td>Asal sekolah</td>
+                            <td>: SMK Assalaam Bandung</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-sm-3"></div>
+            </div>
         </div>
     </div>
 
-    <div class="container-sm">
-        <div class="row">
-            <div class="col-sm-3"></div>
-            <div class="col-sm-6"><img src="profile.jpg" class="rounded-lg"></div>
-            <div class="col-sm-3"></div>
-        </div>
-        <div class="row">
-            <div class="col-sm-3"></div>
-            <div class="col-sm-6">
-                <h2>Biodata</h2>
-            </div>
-            <div class="col-sm-3"></div>
-        </div>
-        <div class="row">
-            <div class="col-sm-3"></div>
-            <div class="col-sm-6">
-                <table>
-                    <tr>
-                        <td>Nama</td>
-                        <td>: M. Ridwan Nurfauzi H.P</td>
-                    </tr>
-                    <tr>
-                        <td>TTL</td>
-                        <td>: Bandung, 3 Mei 2006</td>
-                    </tr>
-                    <tr>
-                        <td>Agama</td>
-                        <td>: Islam</td>
-                    </tr>
-                    <tr>
-                        <td>Jenis kelamin</td>
-                        <td>: Laki-laki</td>
-                    </tr>
-                    <tr>
-                        <td>Asal sekolah</td>
-                        <td>: SMK Assalaam Bandung</td>
-                    </tr>
-                </table>
-            </div>
-            <div class="col-sm-3"></div>
-        </div>
-    </div>
-
-    <footer class="bg-light">
+    <footer>
         <div class="container">
-            &copy; Copyright <b>OnePage.</b> All Rights Reserved <br>Created by kkrdwn_
+            <span style="font-size: .9em;">&copy; Copyright <b>OnePage.</b> All Rights Reserved</span><br>
+            <span style="font-size: .75em;">Created by <a href="https://www.instagram.com/kkrdwn_"
+                    class="btn-link">kkrdwn_</a></span>
         </div>
     </footer>
 
