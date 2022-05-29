@@ -7,11 +7,11 @@ body{
 }
 @keyframes scale-an {
     0%{
-        opacity: 0;
+        opacity: 0.4;
         transform: scale(1.5)  rotateX(0deg) rotateY(0deg);
     }
     50%{
-        opacity: .5;
+        opacity: .7;
         transform: scale(.8) rotateX(180deg) rotateY(180deg);
     }
     100%{
