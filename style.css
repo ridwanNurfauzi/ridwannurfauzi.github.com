@@ -3,20 +3,20 @@ html{
 }
 
 body{
-    animation: scale-an 1s ease-in-out;
+    animation: scale-an 1s;
 }
 @keyframes scale-an {
     0%{
         opacity: 0;
-        transform: scale(1.5);
+        transform: scale(1.5)  rotateX(0deg) rotateY(0deg);
     }
     50%{
         opacity: .5;
-        transform: scale(.8);
+        transform: scale(.8) rotateX(180deg) rotateY(180deg);
     }
     100%{
         opacity: 1;
-        transform: scale(1);
+        transform: scale(1) rotateX(360deg) rotateY(360deg);
     }
 }
 
@@ -31,11 +31,6 @@ article{
     border-bottom-right-radius: 20px;
     overflow: hidden;
 }
-footer{
-    z-index: -220 !important;
-    padding-top: 40px !important;
-    margin-top: -20px;
-}
 
 .btn-contact{
     width: 18em;
@@ -49,6 +44,9 @@ footer{
 }
 
 footer{
+    z-index: -220 !important;
+    padding-top: 40px !important;
+    margin-top: -20px;
     padding-top: 1em;
     padding-bottom: 1.2em;
     background-color: #dddddf;
