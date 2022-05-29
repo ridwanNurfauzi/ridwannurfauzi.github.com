@@ -2,6 +2,24 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    animation: scale-an 1s ease-in-out;
+}
+@keyframes scale-an {
+    0%{
+        opacity: 0;
+        transform: scale(1.5);
+    }
+    50%{
+        opacity: .5;
+        transform: scale(.8);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
 nav{
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
