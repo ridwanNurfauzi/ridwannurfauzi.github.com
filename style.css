@@ -3,7 +3,7 @@ html{
 }
 
 body{
-    animation: scale-an 5s;
+    animation: scale-an 4s;
 }
 @keyframes scale-an {
     0%{
