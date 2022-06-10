@@ -25,14 +25,15 @@ article{
     backdrop-filter: blur(7px);
 }
 
-.navbar-collapse{
-    margin-left: 4em;
-    /* margin-right: -2em; */
+.navbar-brand{
+    margin-right: 4em;
+}
+.nav-item{
+    transition: .5s;
 }
 .nav-item:hover{
     background-color: #fff8;
     border-radius: 10px;
-    transition: .5s;
 }
 .nav-item:active{
     background-color: #aaa8;
