@@ -21,8 +21,21 @@ article{
 }
 
 .bg-light-transparent{
-    background-color: #fefefeaa;
+    background-color: #dddddd9a;
     backdrop-filter: blur(7px);
+}
+
+.navbar-collapse{
+    margin-left: 4em;
+    /* margin-right: -2em; */
+}
+.nav-item:hover{
+    background-color: #fff8;
+    border-radius: 10px;
+    transition: .5s;
+}
+.nav-item:active{
+    background-color: #aaa8;
 }
 
 footer{
