@@ -2,24 +2,6 @@ html{
     scroll-behavior: smooth;
 }
 
-body{
-    animation: scale-an 4s;
-}
-@keyframes scale-an {
-    0%{
-        opacity: 0.4;
-        transform: scale(1.5)  rotateX(0deg) rotateY(0deg) skew(30deg) translateY(0px) translateX(0px);
-    }
-    50%{
-        opacity: .7;
-        transform: scale(.8) rotateX(180deg) rotateY(180deg) skew(-30deg) translateY(300px) translateX(300px);
-    }
-    100%{
-        opacity: 1;
-        transform: scale(1) rotateX(360deg) rotateY(360deg) skew(0deg) translateY(0px) translateX(0px);
-    }
-}
-
 nav{
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
