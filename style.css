@@ -29,16 +29,16 @@ article{
 .navbar-brand{
     margin-right: 4em;
 }
-.nav-item{
+.nav-link{
     transition: .5s;
 }
-.nav-item:hover{
+.nav-item:hover>.nav-link{
     background-color: #fff7;
     border-radius: 10px;
     padding-right: 3em;
     padding-left: 3em;
 }
-.nav-item:active{
+.nav-link:active{
     background-color: #aaa8;
 }
 
