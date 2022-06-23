@@ -1,48 +1,61 @@
-html{
+html {
     scroll-behavior: smooth;
 }
 
-nav{
+nav {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     overflow: hidden;
 }
 
-article{
+.nav-icon {
+    width: 1em;
+    transform: scale(1.6);
+    transition: 1s;
+}
+
+.nav-icon:hover {
+    transform: scale(2);
+}
+
+article {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     overflow: hidden;
     margin-bottom: 5.5em;
 }
 
-.btn-contact{
+.btn-contact {
     width: 18em;
     text-align: left !important;
     margin-top: 12px;
 }
 
-.bg-light-transparent{
+.bg-light-transparent {
     background-color: #dddddd9a;
     backdrop-filter: blur(7px);
 }
 
-.navbar-brand{
+.navbar-brand {
     margin-right: 4em;
 }
-.nav-link{
+
+.nav-link {
     transition: .5s;
 }
-.nav-item:hover>.nav-link{
+
+.nav-item:hover>.nav-link {
     background-color: #fff7;
     border-radius: 10px;
     padding-right: 3em;
     padding-left: 3em;
 }
-.nav-link:active{
+
+.nav-link:active {
     background-color: #aaa8;
 }
 
-footer{
+footer {
     z-index: -1 !important;
     padding-top: 40px !important;
     margin-top: -20px;
