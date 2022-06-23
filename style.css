@@ -12,6 +12,7 @@ nav {
     width: 1em;
     transform: scale(1.6);
     transition: 1s;
+    border-radius: 50%;
 }
 
 .nav-icon:hover {
