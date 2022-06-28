@@ -31,14 +31,14 @@ article {
     width: 326px;
     height: 399px;
     overflow: hidden;
-    box-shadow: 0 0 8px 5px #1113;
+    box-shadow: 0 0 9px 5px #1113;
 }
 .img-custom img{
     transition: 1s;
     margin: 0;
 }
 .img-custom:hover img{
-    transform: scale(1.2);
+    transform: scale(1.15);
     opacity: 0.8;
 }
 
