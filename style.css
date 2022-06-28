@@ -29,10 +29,10 @@ html {
     height: 100vh;
     background-color: #eee;
     z-index: 9999;
-    animation: loading-first-animation 1s;
+    /* animation: loading-first-animation 1s; */
 }
 .spinner-grow {
-    margin-top: calc(50vh - 45px);
+    margin-top: calc(50vh - 60px);
 }
 
 nav {
