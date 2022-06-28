@@ -33,7 +33,7 @@ html {
     /* animation: loading-first-animation 1s; */
 }
 .spinner-grow {
-    margin-top: calc(50vh - 60px);
+    margin-top: calc(50vh - 90px);
 }
 
 nav {
