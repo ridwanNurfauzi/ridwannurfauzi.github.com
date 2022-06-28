@@ -82,6 +82,7 @@ article {
 .img-custom img {
     transition: 1s;
     margin: 0;
+    transform-origin: left;
 }
 
 .img-custom:hover img {
