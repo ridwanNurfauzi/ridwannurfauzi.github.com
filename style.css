@@ -50,7 +50,7 @@ nav {
     animation: nav-icon-animation 1s;
 }
 .nav-icon:hover {
-    transform: scale(2.2);
+    transform: scale(2.2) rotateZ(20deg);
 }
 
 @keyframes nav-icon-animation {
@@ -85,7 +85,7 @@ article {
 }
 
 .img-custom:hover img {
-    transform: scale(1.15);
+    transform: rotateY(80deg);
     opacity: 0;
 }
 
