@@ -76,6 +76,7 @@ article {
     height: 399px;
     overflow: hidden;
     box-shadow: 0 0 9px 5px #1113;
+    background-image: url('profile1.jpg');
 }
 
 .img-custom img {
@@ -85,7 +86,7 @@ article {
 
 .img-custom:hover img {
     transform: scale(1.15);
-    opacity: .8;
+    opacity: 0;
 }
 
 .btn-contact {
