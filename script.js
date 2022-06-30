@@ -7,6 +7,7 @@ function onReady(cb) {
         }
     }, 1000);
 }
+
 onReady(() => {
     document.querySelector('.loading').style.visibility = 'hidden';
     document.querySelector('.loading').style.animation = 'loading-last-animation 1s';
