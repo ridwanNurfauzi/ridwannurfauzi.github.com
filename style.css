@@ -67,6 +67,7 @@ article {
     overflow: hidden;
     box-shadow: 0 0 9px 5px #1113;
     background-image: url('profile1.jpg');
+    margin-top: 12px;
 }
 
 .img-custom img {
