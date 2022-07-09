@@ -2,14 +2,6 @@ html {
     scroll-behavior: smooth;
 }
 
-@keyframes loading-first-animation {
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
-}
 @keyframes loading-last-animation {
     0%{
         visibility: visible;
