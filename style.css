@@ -36,20 +36,9 @@ nav {
     transition: 1s;
     border-radius: 50%;
     transform: scale(1.6);
-    animation: nav-icon-animation 1s;
 }
 .nav-icon:hover {
     transform: scale(2.2) rotateZ(20deg);
-}
-
-@keyframes nav-icon-animation {
-    0% {
-        transform: scale(.7);
-    }
-
-    100% {
-        transform: scale(1.6);
-    }
 }
 
 article {
