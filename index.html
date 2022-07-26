@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="icon" href="Ic.png">
     <title>Web Profile | M. Ridwan Nurfauzi H.P</title>
     <link rel="stylesheet" href="style.css">
@@ -80,6 +81,27 @@
                         <tr>
                             <td>Asal sekolah</td>
                             <td>: SMK Assalaam Bandung</td>
+                        </tr>
+                    </table>
+                </center>
+                <h4 class="text-center" style="margin-top: .8em;">Skill</h4>
+                <center>
+                    <table cellpadding="2">
+                        <tr>
+                            <td><i class="bi bi-check-all"></i></td>
+                            <td>HTML</td>
+                        </tr>
+                        <tr>
+                            <td><i class="bi bi-check-all"></i></td>
+                            <td>CSS</td>
+                        </tr>
+                        <tr>
+                            <td><i class="bi bi-check-all"></i></td>
+                            <td>JavaScript</td>
+                        </tr>
+                        <tr>
+                            <td><i class="bi bi-check-all"></i></td>
+                            <td>Bootstrap</td>
                         </tr>
                     </table>
                 </center>
@@ -180,6 +202,22 @@
     <script>
         $(document).ready(function () {
             $('[data-toggle="tooltip"]').tooltip();
+        });
+
+        function onReady(cb) {
+            let intervalId = window.setInterval(() => {
+                document.querySelector("article").style.visibility = 'hidden';
+                if (document.getElementsByTagName('body')[0] !== undefined) {
+                    window.clearInterval(intervalId);
+                    cb.call(this);
+                }
+            }, 500);
+        }
+
+        onReady(() => {
+            document.querySelector('.loading').style.visibility = 'hidden';
+            document.querySelector('.loading').style.animation = 'loading-last-animation 1s';
+            document.querySelector("article").style.visibility = 'visible';
         });
     </script>
 
