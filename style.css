@@ -66,19 +66,18 @@ article {
     height: 399px;
     overflow: hidden;
     box-shadow: 0 0 9px 5px #1113;
-    background-image: url('profile1.jpg');
+    background-color: #fff;
     margin-top: 12px;
 }
 
 .img-custom img {
     transition: 1s;
     margin: 0;
-    transform-origin: left;
 }
 
 .img-custom:hover img {
-    transform: rotateY(80deg);
-    opacity: 0;
+    transform: scale(1.2);
+    opacity: 0.7;
 }
 
 .btn-contact {
